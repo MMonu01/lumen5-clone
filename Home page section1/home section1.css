@@ -71,7 +71,7 @@ li{padding: .5rem;}
 .fa-file {margin-bottom: 40px;}
 .slide>div:nth-child(2){width: 40%}
 .slide>div:nth-child(2)>div h1{font-size: 40px; margin-bottom: 40px;}
-.slide>div:nth-child(2)>div h2{font-size: 26px; font-weight: lighter;}
+.slide>div:nth-child(2)>div h2{font-size: 26px; font-weight: lighter; margin-bottom: 30px;}
 .slide>div:nth-child(2)>i {font-size: 40px;}
 hr {margin-top: 50px; margin-bottom:50px}
 
@@ -88,7 +88,7 @@ hr {margin-top: 50px; margin-bottom:50px}
 
 .built>div:nth-child(2){width: 40%}
 .built>div:nth-child(2)>div h1{font-size: 40px; margin-bottom: 40px;}
-.built>div:nth-child(2)>div h2{font-size: 26px; font-weight: lighter;}
+.built>div:nth-child(2)>div h2{font-size: 26px; font-weight: lighter; margin-bottom: 30px;}
 .fa-image{margin-bottom: 40px;}
 .built>div:nth-child(2)>i {font-size: 40px;}
 hr {margin-top: 50px; margin-bottom:50px}
