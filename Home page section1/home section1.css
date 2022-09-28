@@ -149,7 +149,7 @@ grid-row-gap: 100px;
 
 @media screen and (min-width: 100px) and (max-width: 500px){
 
-body{margin: 8px;}
+
     nav{flex-direction: column; font-size: 12px;}
     .logo{margin-left:.1rem;}
     .bigdrop >ul li a{padding: 3px;}
