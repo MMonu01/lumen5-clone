@@ -113,6 +113,107 @@ hr {margin-top: 50px; margin-bottom:50px}
 .captivating>div>video{width: 100%; border-radius: 20px;}
 
 
+.imagemove { height: 500px; margin: auto; margin-top: 10px; width: 75%;
+    background-image: url("https://wallpaperaccess.com/full/181937.jpg");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    border:1px solid black;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    border:none;
+    border-radius: 15px;
+}
+a{text-decoration: none; color:black;}
+.box {position: absolute; right: 3%; top: 5%;
+width: 400px; height: 300px; padding: 3.5%; font-size: 18px;}
+
+.read{text-align: right; margin-top: 30px;}
+.read:hover {text-decoration: underline;}
+
+.downimg {width: 70%; margin: auto; display: grid; grid-template-columns: repeat(7,1fr); gap: 10px;}
+.downimg>img {width: 100%; opacity: .6;}
+.downimg>img:hover {opacity: 1;}
+
+
+/* Explore Section */
+
+.buttongrid {display: grid; grid-template-columns: repeat(5,1fr); 
+    gap: 5%; width: 95%; margin:auto; margin-bottom: 40px;}
+   .buttongrid>button{padding: 15px 5px; background-color: white; border-radius: 20px; border-width: 1px; color: rgb(74, 74, 254); border-color: rgb(74, 74, 254); font-size: 16px; font-weight: bold;}
+   
+   .buttongrid>button:hover {
+       background-color: rgb(59, 59, 173); color: white; text-decoration: underline; cursor:pointer;
+   }
+   
+   /* Explore video*/
+   .expo{width: 86%;margin: auto;box-sizing: border-box; margin-bottom: 100px; margin-top: 150px;}
+   .expo>h1{text-align: center; font-size: 40px; margin-bottom: 20px;}
+   
+   
+   .explore {display: grid; grid-template-columns: repeat(3,1fr); grid-template-rows: repeat(3,100px); gap: 40px; grid-row-gap: 130px;}
+   
+   .explore>video{width: 100%; border-radius: 20px;}
+
+
+   /* Learning Section */
+   .learning{ width: 65%; margin: auto;
+    display: grid; grid-template-columns:repeat(3,1fr); gap: 3%;
+}
+.learning>div {box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;padding: 10px;}
+.learning>div>h2{font-weight: lighter; margin-bottom: 40px;}
+.learning>div>img {width: 100%; margin-bottom: 40px;}
+.learning>div>p {text-align: right; }
+.learning>div>p a {text-align: right; font-size: 19px; text-decoration: none;}
+
+.learning>div>p a:hover {text-decoration: underline;}
+
+
+/* Companies Section */
+.companies{ width: 70%; padding: 100px 60px; margin:auto; text-align: center; border-radius: 20px;
+    background-image: url("https://images.unsplash.com/photo-1557683311-eac922347aa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGJsdWUlMjBiYWNrZ3JvdW5kc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.companies{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.companies h1 {font-size: 40px; width: 80%; margin:auto; margin-top: -50px; margin-bottom: 30px;}
+.companies h2 {font-size: 23px; font-weight: lighter; width: 80%; margin: auto;  margin-bottom: 50px;}
+.companies a {padding: 15px 20px; background: white; color: blue; border-radius: 20px; text-decoration:none; font-size: 17px;
+}
+.companies>a:hover {background-color: whitesmoke;}
+
+/* Footer */
+footer {background: #24282f; color: white; padding:5% 10%;}
+footer>div>a {text-decoration: none; color: rgb(201, 201, 201);}
+footer>div>a:hover {text-decoration: underline;}
+
+footer{display: grid; grid-template-columns: 2fr repeat(3,1fr);}
+footer>div>a>img {width:70%;}
+footer>div{display: flex; flex-direction: column;}
+footer>div:nth-child(2),footer>div:nth-child(3),footer>div:nth-child(4){gap: 30px; color:white;}    
+
+footer>div>div , footer>div>a>img{margin-bottom: 40px;}
+footer>div:nth-child(1) {margin-right: 100px;}
+
+.copyright {height: 80px; width: 100%; background-color: #1b1b1b; color: white; display: flex;  justify-content: space-between; align-items: center;}
+
+.copyright>div:nth-child(1){margin-left: 6%;}
+.copyright>div:nth-child(2){margin-right: 6%;}
+.copyright>div>a {text-decoration: none; color: white;}
+.copyright>div>a:hover {text-decoration: underline;}
+
+
+
+
+
 
 
 
@@ -140,6 +241,31 @@ hr {margin-top: 50px; margin-bottom:50px}
     grid-template-rows: repeat(5, 100px);
 grid-row-gap: 100px;
 }
+
+.imagemove{height: 450px; width: 85%;}
+.box { right: 2%; top: 4%;
+    width: 60%; height: 340px; padding: 1%; font-size: 18px;}
+    .downimg {width: 85%;  grid-template-columns: repeat(5,1fr); gap: 10px;}
+  
+.explore{
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(3, 100px);
+grid-row-gap: 100px;
+}
+.buttongrid{grid-template-columns: repeat(2,1fr);} 
+
+.learning{width: 90%;}
+
+.companies{width: 80%;}
+.companies h1 {margin:auto; margin-bottom: 30px;}
+.companies h2 {margin:auto; margin-bottom: 40px;}
+
+footer{padding: 3% 7%; grid-template-columns: 1fr 1fr 1fr; justify-content: space-between; grid-row-gap: 50px;}
+
+footer>div:nth-child(2),footer>div:nth-child(3),footer>div:nth-child(4){gap: 20px; color:white;} 
+footer>div>div {margin-bottom: 25px;}
+
+footer>div>p {font-size: 14px;}
 }
 
 
@@ -176,4 +302,37 @@ grid-row-gap: 100px;
     grid-template-rows: repeat(9, 100px);
     grid-row-gap: 40px;
 }
+
+.imagemove{
+    height: 350px; width:95%;
+}
+.box { right: 3%; top: 5%;
+    width: 85%; height: 260px; padding: 3.5%; font-size: 14px;}
+    p.read{text-align: right; margin-top: 10px;}
+  
+.downimg {width: 90%; grid-template-columns: repeat(4,1fr); gap: 10px;}
+.downimg>img {width: 100%;}
+
+
+.explore{
+grid-template-columns: repeat(1,1fr);
+grid-template-rows: repeat(6, 100px);
+grid-row-gap: 140px;
+}
+.buttongrid{grid-template-columns: repeat(1,1fr); margin-bottom: 100px;} 
+
+.learning{grid-template-columns: repeat(2,1fr);
+width: 95%;}
+
+#oneh1{margin-top: 150px;}
+.companies{width: 90%; padding: 30px 5px 30px 5px; }
+.companies h1 {margin-top: 50px;}
+
+footer{padding: 3% 7%; grid-template-columns: 1.5fr 1fr;
+grid-row-gap: 40px;}
+
+footer>div:nth-child(2),footer>div:nth-child(3),footer>div:nth-child(4){gap: 10px; color:white;}  
+footer>div>div {margin-bottom: 15px;}
+footer>div>p {font-size: 12px;}
+.copyright{font-size: 12px;}
 }
