@@ -30,7 +30,7 @@ for(let i =0; i<arr.length; i++){
 if(email=="" && password == ""){
     alert("Please provide an email and a valid password")
 }
-if(email==""){
+else if(email==""){
     alert("Please provide an email")
 }
 else if(password==""){
