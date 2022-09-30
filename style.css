@@ -15,7 +15,7 @@ ul{list-style: none;}
 
 a{text-decoration:none; color:rgb(92, 85, 85);}
 
-.logo{text-align: center; margin:6rem; padding:5px;}
+.logo{text-align: center; margin:5rem; padding:5px;}
 .logo>img {width: 150px;}
 
 .bigdrop >ul{list-style: none; display: flex;  justify-content: space-between; margin-right:6rem;}
@@ -68,15 +68,15 @@ li{padding: .5rem;}
 .slide {display: flex; width: 86%; margin: auto; gap:10%; align-items: center; margin-top: 90px;}
 .slide>div>img {width: 100%;}
 .slide>div:nth-child(1) {width: 55%;}
-.fa-file {margin-bottom: 40px;}
-.slide>div:nth-child(2){width: 40%}
-.slide>div:nth-child(2)>div h1{font-size: 40px; margin-bottom: 40px;}
+ .fa-file {margin-bottom: 40px;} 
+.slide>div:nth-child(2){width: 40%;}
+.slide>div:nth-child(2)>div h1{font-size: 40px; margin-bottom: 40px}
 .slide>div:nth-child(2)>div h2{font-size: 26px; font-weight: lighter; margin-bottom: 30px;}
 .slide>div:nth-child(2)>i {font-size: 40px;}
 hr {margin-top: 50px; margin-bottom:50px}
 
 .slide>div:nth-child(2)>div>p{font-size: 17px;}
-.slide>div:nth-child(2)>div>p>a{text-decoration: none;}
+.slide>div:nth-child(2)>div>p>a{text-decoration: none; color:blue;}
 
 .slide>div:nth-child(2)>div>p>a:hover{text-decoration: underline;}
 
@@ -94,7 +94,7 @@ hr {margin-top: 50px; margin-bottom:50px}
 hr {margin-top: 50px; margin-bottom:50px}
 
 .built>div:nth-child(2)>div>p{font-size: 17px;}
-.built>div:nth-child(2)>div>p>a{text-decoration: none;}
+.built>div:nth-child(2)>div>p>a{text-decoration: none; color: blue;}
 
 .built>div:nth-child(2)>div>p>a:hover{text-decoration: underline;}
 
@@ -112,7 +112,10 @@ hr {margin-top: 50px; margin-bottom:50px}
 
 .captivating>div>video{width: 100%; border-radius: 20px;}
 
-
+/* Slider Section */
+.customer{
+    text-align: center; font-size: 40px; margin-top: 150px;
+}
 .imagemove { height: 500px; margin: auto; margin-top: 10px; width: 75%;
     background-image: url("https://wallpaperaccess.com/full/181937.jpg");
     background-repeat: no-repeat;
@@ -148,7 +151,7 @@ width: 400px; height: 300px; padding: 3.5%; font-size: 18px;}
    }
    
    /* Explore video*/
-   .expo{width: 86%;margin: auto;box-sizing: border-box; margin-bottom: 100px; margin-top: 150px;}
+   .expo{width: 86%;margin: auto;box-sizing: border-box; margin-bottom: -200px; margin-top: 150px;}
    .expo>h1{text-align: center; font-size: 40px; margin-bottom: 20px;}
    
    
@@ -165,7 +168,7 @@ width: 400px; height: 300px; padding: 3.5%; font-size: 18px;}
 .learning>div>h2{font-weight: lighter; margin-bottom: 40px;}
 .learning>div>img {width: 100%; margin-bottom: 40px;}
 .learning>div>p {text-align: right; }
-.learning>div>p a {text-align: right; font-size: 19px; text-decoration: none;}
+.learning>div>p a {text-align: right; font-size: 19px; text-decoration: none; color: blue;}
 
 .learning>div>p a:hover {text-decoration: underline;}
 
@@ -181,11 +184,12 @@ width: 400px; height: 300px; padding: 3.5%; font-size: 18px;}
 }
 
 .companies{
+    width: 87%;
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.companies h1 {font-size: 40px; width: 80%; margin:auto; margin-top: -50px; margin-bottom: 30px;}
-.companies h2 {font-size: 23px; font-weight: lighter; width: 80%; margin: auto;  margin-bottom: 50px;}
+.companies h1 {font-size: 40px; width: 70%; margin:auto; margin-top: -50px; margin-bottom: 30px;}
+.companies h2 {font-size: 23px; font-weight: lighter; width: 70%; margin: auto;  margin-bottom: 50px;}
 .companies a {padding: 15px 20px; background: white; color: blue; border-radius: 20px; text-decoration:none; font-size: 17px;
 }
 .companies>a:hover {background-color: whitesmoke;}
@@ -224,9 +228,12 @@ footer>div:nth-child(1) {margin-right: 100px;}
     .bigdrop >ul li a{padding: 10x;}
     .bigdrop >ul li a{padding: 10px;}
     #scale{width: 85%; grid-template-columns: auto; gap: 20px;}
-    .logo{width: 86%}
-    .logo>div{grid-template-columns: repeat(5,auto);}
+    #scale>div>div>p {font-size: 36px;}
+    #scale>div>div>h2{font-size: 20px;}
+    .logos{width: 86%}
+    .logos>div{grid-template-columns: repeat(5,auto);}
 
+    
  .slide {flex-direction: column-reverse; margin-top: 70px; width: 90%;}
     .slide>div:nth-child(1) {width: 100%;}
 .slide>div:nth-child(2){width: 100%}
@@ -242,11 +249,14 @@ footer>div:nth-child(1) {margin-right: 100px;}
 grid-row-gap: 100px;
 }
 
+h1{font-size: 34px;}
+h3{font-size: 20px;}
 .imagemove{height: 450px; width: 85%;}
 .box { right: 2%; top: 4%;
-    width: 60%; height: 340px; padding: 1%; font-size: 18px;}
+    width: 80%; height: 340px; padding: 1.5%; font-size: 18px;}
     .downimg {width: 85%;  grid-template-columns: repeat(5,1fr); gap: 10px;}
   
+    .expo{margin-bottom: -20px;}
 .explore{
 grid-template-columns: repeat(2,1fr);
 grid-template-rows: repeat(3, 100px);
@@ -257,8 +267,8 @@ grid-row-gap: 100px;
 .learning{width: 90%;}
 
 .companies{width: 80%;}
-.companies h1 {margin:auto; margin-bottom: 30px;}
-.companies h2 {margin:auto; margin-bottom: 40px;}
+.companies h1 {margin:auto; margin-bottom: 30px; font-size: 34px; width: 90%;}
+.companies h2 {margin:auto; margin-bottom: 20px; width: 90%;}
 
 footer{padding: 3% 7%; grid-template-columns: 1fr 1fr 1fr; justify-content: space-between; grid-row-gap: 50px;}
 
@@ -284,8 +294,10 @@ footer>div>p {font-size: 14px;}
 
 
     #scale{width: 95%; grid-template-columns: auto; gap: 20px;}
-    .logo{width: 95%;}
-    .logo>div{grid-template-columns: repeat(3,auto);}
+    #scale>div>div>p {font-size: 29px}
+    #scale>div>div>h2 {font-size: 18px;}
+    .logos{width: 95%;}
+    .logos>div{grid-template-columns: repeat(4,1fr);}
 
     .slide {flex-direction: column-reverse; margin-top: 60px; width: 90%;}
     .slide>div:nth-child(1) {width: 100%;}
@@ -303,17 +315,19 @@ footer>div>p {font-size: 14px;}
     grid-row-gap: 40px;
 }
 
+h1{font-size: 29px; margin-top: 50px;}
+h3{font-size: 18px;}
 .imagemove{
     height: 350px; width:95%;
 }
 .box { right: 3%; top: 5%;
-    width: 85%; height: 260px; padding: 3.5%; font-size: 14px;}
-    p.read{text-align: right; margin-top: 10px;}
+    width: 85%; height: 310px; padding: 3.5%; font-size: 14px;}
+    p.read{text-align: right; margin-top: 7px;}
   
 .downimg {width: 90%; grid-template-columns: repeat(4,1fr); gap: 10px;}
 .downimg>img {width: 100%;}
 
-
+.expo{margin-bottom:0px;}
 .explore{
 grid-template-columns: repeat(1,1fr);
 grid-template-rows: repeat(6, 100px);
@@ -325,8 +339,9 @@ grid-row-gap: 140px;
 width: 95%;}
 
 #oneh1{margin-top: 150px;}
-.companies{width: 90%; padding: 30px 5px 30px 5px; }
-.companies h1 {margin-top: 50px;}
+.companies{width: 95%; padding: 30px 5px 30px 5px; }
+.companies h1 {margin-top: 50px; font-size: 29px; width: 95%;}
+.companies h2{font-size: 18px; width: 95%;}
 
 footer{padding: 3% 7%; grid-template-columns: 1.5fr 1fr;
 grid-row-gap: 40px;}
