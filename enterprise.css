@@ -293,6 +293,9 @@ footer>div>p {font-size: 14px;}
     .slide {flex-direction: column-reverse; width: 90%;}
     .slide>div:nth-child(1) {width: 100%;}
 .slide>div:nth-child(2){width: 100%}
+#scale>div>h3{font-size: 18px;}
+#scale>div>div>p {font-size: 30px;}
+#scale h2 {font-size: 18px;}
 
 
 .built {flex-direction: column-reverse; padding-top: 70px; width: 90%;}
