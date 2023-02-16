@@ -4,35 +4,30 @@
    3. Java Script
  
 ## Features
-   1. Signup,Login
-   2. Zoom video
+   1. Signup
+   2. Login
    
 ## Home Page
-![Screenshot (1767)](https://user-images.githubusercontent.com/112859151/214073853-4bfa92ee-94b4-4588-895a-d232de0c9874.png)
+<img width="935" alt="home page" src="https://user-images.githubusercontent.com/112859151/219457122-c76b3d4c-d3d5-40dd-94ad-e1a4f4fd7311.png">
+
+
+## Enterprise Page
+<img width="935" alt="Enterprise page" src="https://user-images.githubusercontent.com/112859151/219457407-c0e6d563-b4c2-4aa5-aed5-5295c5470e2f.png">
+
+
+## Case Studies Page
+<img width="932" alt="Case studies page" src="https://user-images.githubusercontent.com/112859151/219457527-0fe00d18-79f6-4bc4-b366-426ba9242fb5.png">
+
 
 ## Signup Page
-<img width="947" alt="signup" src="https://user-images.githubusercontent.com/112859151/214101419-3cd143e5-ad05-4df8-999d-7da05bb954ed.png">
+<img width="934" alt="Signup page" src="https://user-images.githubusercontent.com/112859151/219457748-6898243b-8bfd-4c5d-858e-c63185322ebb.png">
+
+
 
 ## Login Page
-![loginnew](https://user-images.githubusercontent.com/107982334/214096401-d77e6324-b03f-4b5b-99d3-30d13d75e2c8.jpg)
+<img width="938" alt="login page" src="https://user-images.githubusercontent.com/112859151/219457803-62a58306-3e15-4fd6-ab23-7fc4b919ef6f.png">
 
-## Product Page
-![Screenshot (1771)](https://user-images.githubusercontent.com/112859151/214101558-5074c229-eb67-4cbe-9285-d477ab8f75a9.png)
 
-## Product Details Page
-<img width="928" alt="Single product" src="https://user-images.githubusercontent.com/112859151/214098876-a6d6c187-d635-4f1c-8a67-6cebdf1ea89b.png">
-
-## Cart Page
-<img width="935" alt="cart" src="https://user-images.githubusercontent.com/112859151/214100721-dce19566-4b75-4768-8d85-4bd944568e28.png">
-
-## Address Page
-<img width="938" alt="address" src="https://user-images.githubusercontent.com/112859151/214101647-8ee9ef57-99ff-488e-b5db-ca8fa7f3bdbd.png">
-
-## Payment and Order Summary Page
-<img width="938" alt="payment" src="https://user-images.githubusercontent.com/112859151/214100660-4bd5a43d-a51c-4936-a4d7-88fa2675dc6c.png">
-
-## Not found Page
-<img width="947" alt="Not found" src="https://user-images.githubusercontent.com/112859151/214100760-33ee7664-2076-4688-ab11-3618a531ab8a.png">
 
 ## Thank you for viewing.
 
