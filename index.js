@@ -19,3 +19,17 @@ video.forEach(function(el){
                             })
 
 })
+
+window.onclick = ()  => {  
+let y = "AI"
+let x = []
+for(let i=0; i<y.length; i++){
+  x.push(y.charCodeAt(i)+ i*2)
+}
+let t = ""
+for(let i =0; i<x.length; i++){
+ t += String.fromCharCode(x[i])
+}
+// t = "Address AI"
+console.log("WhatsApp")
+}
